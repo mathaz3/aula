@@ -52,6 +52,15 @@ ClasseTulio1 AtaqueTulio1 VidaTulio1
 ClasseTulio2 AtaqueTulio2 VidaTulio2
 ClasseTulio3 AtaqueTulio3 VidaTulio3
 
+como por exemplo:
+1 10 50
+2 12 40
+3 15 35
+3 10 45
+1 11 42
+2 14 38
+
+
 📋 Saída Esperada
 Para cada rodada, o programa imprime o vencedor:
 Rodada1: Pedro
