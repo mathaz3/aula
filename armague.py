@@ -57,7 +57,6 @@ def armague():
         print("jogador 1 ganhou!")
     elif pontos_player2>pontos_player1:
         print("jogador 2 ganhou!")
-    print(pontos_player1,pontos_player2)
 
 if __name__=='__main__':
     armague()
