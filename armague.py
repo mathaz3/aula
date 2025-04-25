@@ -46,13 +46,17 @@ def armague():
                     player1[2]-=player2[1]
         if player1[2]>player2[2]:
             pontos_player1+=1
+            print("jogador 1 ganhou esse duelo!")
         elif player2[2]>player1[2]:
             pontos_player2+=1
+            print("jogador 2 ganhou esse duelo!")
         elif player1[2]==player2[2]:
             if player1[1]>player2[1]:
                 pontos_player1+=1
+                print("jogador 1 ganhou esse duelo!")
             elif player2[1]>player1[1]:
                 pontos_player2+=1
+                print("jogador 2 ganhou esse duelo!")
     if pontos_player1>pontos_player2:
         print("jogador 1 ganhou!")
     elif pontos_player2>pontos_player1:
