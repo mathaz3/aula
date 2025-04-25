@@ -4,7 +4,7 @@ def armague():
     informacoes=[[],[]]
     for x in range(len(informacoes)):
         for y in range(3):
-            informacoes[x].append([int(x) for x in input().split()])
+            informacoes[x].append([float(x) for x in input().split()])
     #                      rodada
     
     #acrescimos baseados na combinacao de classes dos personagens
